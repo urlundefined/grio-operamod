@@ -1,0 +1,100 @@
+{
+    "name": "Grioten",
+    "description": "I was bored.",
+    "developer":
+    {
+        "name": "urlundefined"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/grio_b1b2.mp4"
+            ],
+            "browser_sounds":
+            {
+                "TAB_INSERT":
+                [
+                    "sound/go_go_go.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/metal_pipe.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/rizz.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/rizz.mp3"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/rizz.mp3",
+                    "keyboard/rizz.mp3",
+                    "keyboard/rizz.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/rizz.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 4,
+                        "s": 0,
+                        "l": 100
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 4,
+                        "s": 0,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 4,
+                        "s": 0,
+                        "l": 100
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 4,
+                        "s": 0,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/grioten.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
